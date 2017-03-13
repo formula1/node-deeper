@@ -5,6 +5,9 @@
   "scripts": {
     "test": "standard && tap test/*.js --coverage"
   },
+  "browser": {
+    "buffertools": false
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/othiym23/node-deeper.git"
